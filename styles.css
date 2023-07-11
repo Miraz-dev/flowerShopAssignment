@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/*******************************/
+/* Reusable and common classes */
+/*******************************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.btn{
+    background-color: #E55473;
+    color: #fff;
+    padding: 20px 43px;
+    border-radius: 8px;
+    border: none;
+    width: fit-content;
+
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.w1440{
+    width: 1440px;
+}
+
+.df{
+    display: flex;
+}
+
+.g24{
+    gap: 24px;
+}
+
+.jc-c {
+    justify-content: center;
+}
+.jc-sb{
+    justify-content: space-between;
+}
+.jc-sa{
+    justify-content: space-around;
+}
+
+.ai-c{
+    align-items: center !important;
+}
+
+
+.text-container{
+    /* width: 1440px; */
+    /* background-color: green; */
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+}
+.featured-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.featured-desc {
+    color: #27272799;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.mb-128 {
+    margin-bottom: 128px;
+}
+
+.ta-c{
+    text-align: center !important;
+}
+
+/*******************************/
+/* Hero section */
+/*******************************/
+
+.hero-section{
+    background-color: #E554731A;
+    /* width: 100vw; */
+    height: 95vh;
+    /* padding: 50px; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("./FlowerAsset/pngwing\ 10.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+
+    margin-bottom: 150px;
+
+}
+
+
+.hero {
+    width: 1440px;
+    display: flex;
+    /* background-color: green; */
+}
+
+
+.hero-text-contents{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    /* background-color: yellow; */
+}
+
+.hero-title{
+    color: #272727;
+    font-weight: 700;
+    font-size: 80px;
+    text-align: left;
+}
+
+.hero-desc {
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+/* Below hero section */
+
+/*******************************/
+/* Three flower section */
+/*******************************/
+.flower-container{
+    /* background-color: palegoldenrod; */
+    align-items: flex-end;
+}
+
+.arc{
+    width: 464px;
+    height: 538px;
+    border-radius: 50% 50% 0 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.mb-32{
+    margin-bottom: 32px;
+}
+.flower-1st{
+    background-color: #A7216226;
+}
+
+.flower-2nd{
+    background-color: #0597A026;
+
+}
+.flower-3rd{
+    background-color: #477D1126;
+}
+
+.flower-text {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+
+}
+
+
+/*******************************/
+/* Features section */
+/*******************************/
+
+.features-container{
+    background-color: #2727270D;
+    padding: 87px 0;
+    border-radius: 8px;
+}
+
+.g-100{
+    gap: 100px;
+}
+
+.feature-text {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+
+    font-size: 24px;
+
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.pic{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+
+/*******************************/
+/* Sales section */
+/*******************************/
+.sales{
+    background-color: #E554730D;
+}
+.sales-container{
+    /* background-color: lightcyan; */
+}
+.mb-24{
+    margin-bottom: 24px;
+}
+.p-tb-100{
+    padding: 100px 0;
+}
+
+.sales-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.sales-title> span{
+    color: #E55473;
+}
+
+.sales-text{
+    /* background-color: yellow; */
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sales-desc{
+    color: #27272799;
+    font-size: 18px;
+}
+
+
+/*******************************/
+/* Four flower section */
+/*******************************/
+
+.four-flowers{
+    /* background-color: lightseagreen; */
+}
+
+.g-24{
+    gap: 24px;
+}
+
+
+/*******************************/
+/* Subscribe section */
+/*******************************/
+
+.subscribe-section{
+    /* background-color: lightseagreen; */
+}
+
+.subscribe-content{
+    background-image: url("FlowerAsset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-position: contain;
+}
+
+.email-sub{
+    /* background-color: lightgreen; */
+    gap: 16px;
+}
+
+.email-input{
+    width: 700px;
+    border-radius: 8px;
+    border: none;
+    padding: 23px 22px;
+    font-size: 16px;
+}
+
+.p-tb-121{
+    padding-top: 122px;
+    padding-bottom: 121px;
+}
+
+
+/*******************************/
+/* Footer section */
+/*******************************/
+
+.footer{
+    background-color: black;
+}
+.p-tb-128{
+    padding: 128px 0;
+}
+.footer-title {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.footer-content{
+    /* background-color: grey; */
+}
+
+.footer-title> span{
+    color: #E55473;
+}
+
+.footer-desc {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
